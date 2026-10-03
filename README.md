@@ -1,47 +1,45 @@
-Porter Sales & Profit Performance Dashboard
+# Porter Sales & Profit Performance Dashboard
 
-Project Overview
-An interactive Tableau dashboard developed to analyze Porter sales performance, profitability, product performance, categories, regions, and sales trends over time.
+## 📊 Project Overview
 
-Objective
-Analyze Sales, Profit, and Quantity.
-Compare performance across Categories and Regions.
-Identify Top Products.
-Analyze sales trends over time.
-Use Forecasting, Moving Average, and Clustering for additional analysis.
+An interactive **Tableau dashboard** developed to analyze Porter sales performance, profitability, product performance, categories, regions, and sales trends over time.
 
-Dataset
+## 🎯 Objective
 
-Dataset: Porter Tableau Dashboard Dataset
-Format: CSV
-Records: 500
-Main Fields: Sales, Profit, Quantity, Category, Region, Order Date, Product
+- Analyze **Sales, Profit, and Quantity**
+- Compare performance across **Categories and Regions**
+- Identify **Top Products**
+- Analyze **sales trends over time**
+- Use **Forecasting, Moving Average, and Clustering** for additional analysis
 
-Tools Used
-Tableau Desktop / Tableau Public
-CSV Dataset
+## 📁 Dataset
 
-Dashboard Features
-Total Sales
-Total Profit
-Profit Ratio
-Total Quantity
-Sales Trend with Forecast
-Moving Average
-Sales by Category
-Profit by Category
-Top 10 Products
-Sales Map by State
-Sales vs Profit Clustering
+- **Dataset:** Porter Tableau Dashboard Dataset
+- **Format:** CSV
+- **Records:** 500
+- **Main Fields:** Sales, Profit, Quantity, Category, Region, Order Date, Product
 
-Calculated Fields
-Total Sales = SUM([Sales])
+## 🛠️ Tools Used
 
-Total Profit = SUM([Profit])
+- **Tableau Desktop / Tableau Public**
+- **CSV Dataset**
 
-Profit Ratio = SUM([Profit]) / SUM([Sales])
+## 📈 Dashboard Features
 
-Average Sales = AVG([Sales])
+- **Total Sales**
+- **Total Profit**
+- **Profit Ratio**
+- **Total Quantity**
+- **Sales Trend with Forecast**
+- **Moving Average**
+- **Sales by Category**
+- **Profit by Category**
+- **Top 10 Products**
+- **Sales Map by State**
+- **Sales vs Profit Clustering**
 
-Conclusion
-The dashboard provides an interactive view of Porter sales and profit performance and helps identify trends, product performance, category performance, and regional sales patterns.
+## 🧮 Calculated Fields
+
+### Total Sales
+```text
+SUM([Sales])
